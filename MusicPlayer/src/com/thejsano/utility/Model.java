@@ -40,7 +40,7 @@ public class Model {
 		fileChooser.setTitle("Select song");
 
 		// Default directory
-		fileChooser.setInitialDirectory(new File("C:\\Users\\thejs\\Music\\"));
+		fileChooser.setInitialDirectory(new File("C:\\Users"));
 
 		// Limits to audio
 		fileChooser.getExtensionFilters().addAll(new ExtensionFilter("Audio Files", "*.wav", "*.mp3", "*.aac"));
