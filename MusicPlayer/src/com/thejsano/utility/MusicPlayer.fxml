@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 
-<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="s04.MusicPlayerController">
+<AnchorPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="258.0" prefWidth="600.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.thejsano.utility.MusicPlayerController">
    <children>
       <ImageView fx:id="close" fitHeight="32.0" fitWidth="32.0" layoutX="554.0" layoutY="14.0" onMousePressed="#close">
          <image>
-            <Image url="@../../../../Pictures/icons/cancel.png" />
+            <Image url="@../../../../rsc/player2%20-%20Inverse/cancel.png" />
          </image>
       </ImageView>
       <Slider layoutX="14.0" layoutY="263.0" prefHeight="18.0" prefWidth="576.0" AnchorPane.bottomAnchor="91.0" />
@@ -21,7 +21,7 @@
          <graphic>
             <ImageView fitHeight="25.0" fitWidth="25.0">
                <image>
-                  <Image url="@../../../../Pictures/icons/player2%20-%20Inverse/menu-2.png" />
+                  <Image url="@../../../../rsc/player2%20-%20Inverse/menu-2.png" />
                </image>
             </ImageView>
          </graphic>
@@ -32,7 +32,7 @@
                <graphic>
                   <ImageView fitHeight="25.0" fitWidth="25.0">
                      <image>
-                        <Image url="@../../../../Pictures/icons/player2%20-%20Inverse/back.png" />
+                        <Image url="@../../../../rsc/player2%20-%20Inverse/back.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -41,7 +41,7 @@
                <graphic>
                   <ImageView fitHeight="32.0" fitWidth="32.0">
                      <image>
-                        <Image url="@../../../../Pictures/icons/player2%20-%20Inverse/play-button.png" />
+                        <Image url="@../../../../rsc/player2%20-%20Inverse/play-button.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -50,7 +50,7 @@
                <graphic>
                   <ImageView fitHeight="25.0" fitWidth="25.0">
                      <image>
-                        <Image url="@../../../../Pictures/icons/player2%20-%20Inverse/next.png" />
+                        <Image url="@../../../../rsc/player2%20-%20Inverse/next.png" />
                      </image>
                   </ImageView>
                </graphic>
