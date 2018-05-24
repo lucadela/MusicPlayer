@@ -1,0 +1,31 @@
+#playButton, #nextButton, #prevButton   {
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0.0%, #1f2429 20.0%, #191d22 100.0%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50.0% 0.0%, radius 100.0%, rgba(114.0,131.0,148.0,0.9), rgba(255.0,255.0,255.0,0.0));
+    -fx-background-radius: 30.0px;
+    -fx-background-insets: 0.0,1.0,2.0,0.0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 5.0, 0.0 , 0.0 , 1.0 );
+    -fx-padding: 10.0 20.0 10.0 20.0;
+} 
+
+#menuButton{
+    -fx-background-color: 
+        #090a0c,
+        linear-gradient(#38424b 0.0%, #1f2429 20.0%, #191d22 100.0%),
+        linear-gradient(#20262b, #191d22),
+        radial-gradient(center 50.0% 0.0%, radius 100.0%, rgba(114.0,131.0,148.0,0.9), rgba(255.0,255.0,255.0,0.0));
+    -fx-background-radius: 2.0px;
+    -fx-background-insets: 0.0,1.0,2.0,0.0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0.0,0.0,0.0,0.6) , 5.0, 0.0 , 0.0 , 1.0 );
+}
+
+#root{
+-fx-background-color:
+    linear-gradient(#9d9e9d 0.0%, #6b6a6b 20.0%, #343534 80.0%, #5194ff 100.0%),
+    linear-gradient(#8a8a8a 0.0%, #6b6a6b 20.0%, #343534 80.0%, #5999ff 100.0%),
+    linear-gradient(#777777 0.0%, #606060 50.0%, #505250 51.0%, #639fff 100.0%);
+	-fx-background-insets: 0.0,1.0,4.0,5.0,6.0;
+	-fx-background-radius: 20.0px;
+}
